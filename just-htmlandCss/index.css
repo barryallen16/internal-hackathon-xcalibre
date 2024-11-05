@@ -1,0 +1,73 @@
+
+body{
+ color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.subPara {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}
+.main{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+.grid-item{
+  margin:70px;
+  border:10px;
+  border-style: groove;
+  size: 180px;
+}
+.grid-number{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+.golem{
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.nearly{
+  display:inline;
+  justify-content: flex-start;
+}
+.Finale{
+  border: 2px;
+  border-style: solid;
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.Footfetish{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.Final{
+  display:flex;
+  justify-content:space-between ;
+  align-items: center;
+}
+ul{
+  display: inline-flex;
+  justify-content: left;
+  align-items: flex-end;
+  padding: 20px;
+}
+#pad{
+    padding-left: 50%;
+}
